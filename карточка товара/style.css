@@ -1,0 +1,218 @@
+body{
+    padding: 0;
+    margin:0;
+    min-width: 65px;
+    
+}
+/*Выравивание шапки*/
+.logo-container{
+  margin-top: 25px;
+}
+.main-header-nav{
+  display: flex;
+  justify-content:space-around;
+  
+}
+.site-navigation, .user-navigation{
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 25px;
+}
+.site-navigation-item, .user-navigation-item{
+ padding-right: 35px;
+}
+
+/*Стилизация шапки*/
+.site-navigation-item,
+.user-navigation-item {
+  list-style: none;
+}
+.link-item{
+text-decoration: none;
+color:#151C22;
+font-family: Work Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+}
+.card{
+  margin-top: 80px;
+}
+.card-description-column{
+background: #F1F2F4;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+margin-left: 70px;
+}
+
+.card-description-header{
+font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 38px;
+color: #151C22;
+margin-left: 70px;
+}
+.card-description-text{
+font-family: Work Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #151C22;
+margin-left: 70px;
+margin-right:228px;
+}
+.card-description-property{
+font-family: Work Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #151C22;
+margin-left: 70px;
+}
+.btn{
+  background-color: #151C22;
+  width: 200px;
+ height: 64px;
+ display: flex;
+ margin-left: 70px;
+}
+.black-btn{
+font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+text-decoration: none;
+margin: auto;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+.container-img{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 70px;
+}
+.card-photo-preview{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+.card-photo-item{
+  list-style: none;
+}
+
+.section-title-container{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 49px;
+  padding-right: 49px;
+  margin-top: 110px;
+}
+.section-title{
+font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 38px;
+color: #151C22;
+margin: 0px;
+}
+.show-more{
+font-family: Work Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #151C22;
+border-bottom: 2px solid #151C22;
+text-decoration: none;
+align-self: flex-end;
+}
+.catalog-list{
+  margin-top: 65px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+  list-style: none;
+  margin-bottom: 0px;
+}
+.catalog-item-title{
+  margin-bottom: 0px;
+}
+.catalog-item-link{
+font-family: Work Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #151C22;
+text-decoration: none;
+}
+.catalog-item-price{
+font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+color: #151C22;
+margin-top: 10px;
+}
+.catalog-item:first-child{
+padding-left: 49px;
+}
+.catalog-item:last-child{
+  padding-right: 49px;
+}
+/*Выравивание подвала*/
+.main-footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 140px;
+  background: #151C22;
+}
+.footer-navigation-link{
+font-family: Work Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+text-decoration: none;
+}
+.footer-navigation{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0px;
+}
+.footer-navigation-item{
+  list-style: none;
+  padding-right: 35px;
+  margin-top: 35px;
+}
+.social{
+  display: flex;
+  justify-content: space-around;
+}
+.social-item{
+  list-style: none;
+  padding-right: 28px;
+  margin-top: 17px;
+}
+.main-footer-logo{
+margin-top:50px;
+margin-bottom: 0px;
+}

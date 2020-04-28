@@ -1,0 +1,240 @@
+body{
+    padding: 0;
+    margin:0;
+    min-width: 65px;
+}
+/*Выравивание шапки*/
+.main-header-nav{
+  display: flex;
+  justify-content:space-around;
+  margin-top: 25px;
+}
+.site-navigation, .user-navigation{
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+  margin: 0px;
+}
+.site-navigation-item, .user-navigation-item{
+ padding-right: 35px;
+}
+
+/*Стилизация шапки*/
+.site-navigation-item,
+.user-navigation-item {
+  list-style: none;
+}
+.link-item{
+text-decoration: none;
+color:#151C22;
+font-family: Work Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+}
+/* Промо*/
+.promo{
+  margin-top: 25px;
+  height: 617px;
+  background-color: #F1F2F4;
+  display: flex;
+  justify-content: center;
+}
+.promo-text-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.promo-img-container{
+  padding-left: 100px;
+}
+.promo-img{
+  margin-top: 50px;
+}
+.promo-title{
+  font-family: Work Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color: #727A82;
+}
+.promo-text{
+font-family: Anton;
+font-style: normal;
+font-weight: normal;
+font-size: 128px;
+line-height: 188px;
+color: #151C22;
+margin: 0px;
+text-transform: uppercase;
+}
+.black-button{
+width: 219px;
+height: 64px;
+background: #151C22;
+display: flex;
+}
+.black-button-a{
+text-decoration: none;
+font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+margin: auto;
+}
+/*Бестселлеры*/
+.section-title-container{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 49px;
+  padding-right: 49px;
+  margin-top: 110px;
+}
+.section-title{
+font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 38px;
+color: #151C22;
+margin: 0px;
+}
+.show-more{
+font-family: Work Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #151C22;
+border-bottom: 2px solid #151C22;
+text-decoration: none;
+align-self: flex-end;
+}
+.catalog-list{
+  margin-top: 65px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+  list-style: none;
+  margin-bottom: 0px;
+}
+.catalog-item-title{
+  margin-bottom: 0px;
+}
+.catalog-item-link{
+font-family: Work Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #151C22;
+text-decoration: none;
+}
+.catalog-item-price{
+font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+color: #151C22;
+margin-top: 10px;
+}
+.catalog-item:first-child{
+padding-left: 49px;
+}
+.catalog-item:last-child{
+  padding-right: 49px;
+}
+/*Новая коллекция*/
+.section-title-container:nth-child(2){
+  margin-top: 50px;
+}
+.new-collection-container-all{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.new-collection-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #F1F2F4;
+  margin-top: 25px;
+  width: 350px;
+  height: 397px;
+  padding-left: 43px;
+}
+.new-collection-title{
+font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+color: #151C22;
+margin: 0px;
+}
+.new-collection-data{
+font-family: Work Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+margin-bottom: 0px;
+}
+.new-collection-text{
+font-family: Work Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color: #727A82;
+width: 310px;
+}
+/*Выравивание подвала*/
+.main-footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 140px;
+  background: #151C22;
+}
+.footer-navigation-link{
+font-family: Work Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+text-decoration: none;
+}
+.footer-navigation{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0px;
+}
+.footer-navigation-item{
+  list-style: none;
+  padding-right: 35px;
+  margin-top: 35px;
+}
+.social{
+  display: flex;
+  justify-content: space-around;
+}
+.social-item{
+  list-style: none;
+  padding-right: 28px;
+  margin-top: 17px;
+}
+.main-footer-logo{
+margin-top:50px;
+margin-bottom: 0px;
+}

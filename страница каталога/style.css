@@ -1,0 +1,191 @@
+body{
+    padding: 0;
+    margin:0;
+    min-width: 65px;
+    
+}
+/*Выравивание шапки*/
+.logo-container{
+  margin-top: 25px;
+}
+.main-header-nav{
+  display: flex;
+  justify-content:space-around;
+  
+}
+.site-navigation, .user-navigation{
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 25px;
+}
+.site-navigation-item, .user-navigation-item{
+ padding-right: 35px;
+}
+
+/*Стилизация шапки*/
+.site-navigation-item,
+.user-navigation-item {
+  list-style: none;
+}
+.link-item{
+text-decoration: none;
+color:#151C22;
+font-family: Work Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+}
+.catalog-list{
+  display:flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  justify-content: space-around;
+}
+.catalog-item{
+  padding-left: 30px;
+}
+.catalog-item-link{
+font-family: Work Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #151C22;
+text-decoration: none;
+}
+.catalog-item-price{
+font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+color: #151C22;
+margin-top: 0px;
+}
+.breadrcumbs-link, 
+.breadcrumbs-item{
+font-family: Work Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #727A82;
+list-style: none;
+text-decoration: none;
+padding-left:25px;
+
+}
+.catalog-title{
+font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 125%;
+color: #151C22;
+}
+.breadcrumbs-container{
+  display: flex;
+  background-color: #F1F2F4;
+  justify-content: center;
+  margin-top: 25px;
+}
+.breadcrumbs-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.catalog-title{
+  width: 272px;
+  align-self: center;
+}
+.breadcrumbs-img{
+  padding-left: 70px;
+}
+.breadcrumbs{
+  display: flex;
+  justify-content: start;
+}
+.catalog-filters{
+text-align: right;
+font-family: Work Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #151C22;
+margin: 40px;
+}
+
+.catalog-slider{
+font-family: Work Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color: #151C22;
+text-align: center;
+}
+.black-button{
+text-decoration: none;
+font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+background-color: #151C22; 
+width: 200px;
+height: 64px;
+display: flex;
+justify-content: center;
+}
+.button-container{
+  display: flex;
+  justify-content: center;
+}
+/*Выравивание подвала*/
+.main-footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 140px;
+  background: #151C22;
+}
+.footer-navigation-link{
+font-family: Work Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+text-decoration: none;
+}
+.footer-navigation{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0px;
+}
+.footer-navigation-item{
+  list-style: none;
+  padding-right: 35px;
+  margin-top: 35px;
+}
+.social{
+  display: flex;
+  justify-content: space-around;
+}
+.social-item{
+  list-style: none;
+  padding-right: 28px;
+  margin-top: 17px;
+}
+.main-footer-logo{
+margin-top:50px;
+margin-bottom: 0px;
+}
